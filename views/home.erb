@@ -1,0 +1,11 @@
+<!-- Uses layout.erb for common content of html doc -->
+	<h1>This is the HOME page</h1>
+	<img id='pitt' src="/images/guy_pitt.jpg">
+<!-- execute ruby code inside erb file -->
+<!-- Must wrapper each ruby line with <% %> -->
+<!-- adding = to speical tag cause content view in browser -->
+
+	<% 10.times do |i| %>
+		<br><span>Generic message <%= i %></span>
+	<% end %>
+
